@@ -1,0 +1,17 @@
+{
+  "name": "flipbook-pdf-extractor",
+  "version": "1.0.0",
+  "description": "Lay lai file PDF goc tu mot link flipbook (Heyzine va cac dich vu cung kieu) bang cach bat network response tra ve *.pdf khi trinh duyet that tai trang.",
+  "type": "module",
+  "main": "index.mjs",
+  "bin": {
+    "flipbook-pdf-extractor": "cli.mjs"
+  },
+  "scripts": {
+    "start": "node cli.mjs"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "playwright": "^1.63.0"
+  }
+}
